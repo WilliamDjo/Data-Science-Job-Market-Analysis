@@ -67,23 +67,6 @@ Download the `ds_jobs.csv` file and place it in the `data/` directory (or the sc
 python job_market_analyzer.py
 ```
 
-## 📁 Project Structure
-
-```
-data-science-job-analysis/
-├── job_market_analyzer.py    # Main analysis script
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-├── data/                    # Data directory (created automatically)
-│   ├── ds_jobs.csv          # Primary dataset (user provided)
-│   ├── cost_of_living.csv   # Cached cost of living data
-│   ├── exchange_rates.csv   # Cached currency data
-│   └── country_codes.csv    # Cached country mappings
-└── output/                  # Results directory (created automatically)
-    ├── job_market_analysis.png    # Main visualization
-    └── analysis_report.json       # Detailed findings
-```
-
 ## 📊 Data Sources
 
 1. **Job Listings**: Data science positions with salary information (user-provided CSV)
